@@ -429,8 +429,8 @@ var COMMANDS = {
 		});
 		
 		pushMessage({ nick: '*', text: "在线的用户: " + nicks.join(", ") })
-                pushMessage({ nick: '*', text: "# 公告\nzzChat将在7月10日（暂定）绑定公网IP，届时zzChat将无法使用，敬请谅解。" })
-                pushMessage({ nick: 'Server', trip: 'Server', text: "Just test…" })
+                pushMessage({ nick: '*', text: "# 公告\n - zzChat将在7月10日（暂定）绑定公网IP，届时zzChat将无法使用，敬请谅解。" })
+                pushMessage({ nick: 'Server', trip: 'ThisIsAVeryLongTrip', text: "Look!I have a LONG trip!!!" })
 		
 	},
 
