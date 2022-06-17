@@ -334,6 +334,7 @@ function join(channel) {
 			
 			send({ cmd: 'join', channel: channel, nick: myNick });
 			pushMessage({ nick: '*', text: "在线用户: " + a_nicks.join(", ") })
+                        pushMessage({ nick: 'Server', trip: 'Server', text: "欢迎来到zzChat~" })
 		}
 		var h5_mynick = document.querySelector("#mynick")
 		h5_mynick.innerHTML = '当前昵称：'+myNick.split('#')[0]
