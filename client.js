@@ -334,7 +334,6 @@ function join(channel) {
 			
 			send({ cmd: 'join', channel: channel, nick: myNick });
 			pushMessage({ nick: '*', text: "在线用户: " + a_nicks.join(", ") })
-                        pushMessage({ nick: '*', text: "# 公告\nzzChat将在7月10日（暂定）绑定公网IP，届时zzChat将无法使用，敬请谅解。" })
 		}
 		var h5_mynick = document.querySelector("#mynick")
 		h5_mynick.innerHTML = '当前昵称：'+myNick.split('#')[0]
@@ -430,6 +429,8 @@ var COMMANDS = {
 		});
 		
 		pushMessage({ nick: '*', text: "在线的用户: " + nicks.join(", ") })
+                pushMessage({ nick: '*', text: "# 公告\nzzChat将在7月10日（暂定）绑定公网IP，届时zzChat将无法使用，敬请谅解。" })
+                pushMessage({ nick: 'Server', trip: 'Server', text: "Just test…" })
 		
 	},
 
