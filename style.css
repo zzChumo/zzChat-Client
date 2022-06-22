@@ -154,7 +154,7 @@ blockquote {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #aaa;
+  color: #eee;
   background-color: #4e4e4e;
   border-radius: 4px;
 }
@@ -165,8 +165,8 @@ hr {
   border-top: 1px solid #4e4e4e;
 }
 mark {
-  background-color: #60ac39;
-  color: black;
+  background-color: #00ccaa;
+  color: #fff;
 }
 pre {
   display: block;
