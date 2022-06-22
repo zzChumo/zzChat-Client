@@ -154,7 +154,7 @@ blockquote {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #000000;
+  color: #555;
   background-color: #4e4e4e;
   border-radius: 4px;
 }
@@ -233,7 +233,7 @@ ul ul, ol ol {
   padding-left: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .messages {
     border: none;
   }
