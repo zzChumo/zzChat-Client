@@ -429,7 +429,7 @@ var COMMANDS = {
 		});
 		
 		pushMessage({ nick: '*', text: "在线的用户: " + nicks.join(", ") })
-                pushMessage({ nick: '*', text: "# 公告\n\n -zzChat将在7月10日（暂定）绑定公网IP，届时zzChat将无法使用，敬请谅解。\n\n-----以下为聊天区域-----" })
+                pushMessage({ nick: '*', text: "# 更新日志\n\n## zzChat Client V1.1.0\n-改进了代码框，让内部文字变得更加清晰\n-更改了高光配色\n-修复了介于大屏和小屏之间的设备的分辨率（排版）问题" })
 		
 	},
 
