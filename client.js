@@ -429,7 +429,7 @@ var COMMANDS = {
 		});
 		
 		pushMessage({ nick: '*', text: "在线的用户: " + nicks.join(", ") })
-                pushMessage({ nick: '*', text: "# 更新日志\n\n## zzChat Client V1.1.0\n-加入了半透明元素。" })
+                pushMessage({ nick: '*', text: "# 更新日志\n\n## zzChat Client V1.1.1\n-加入了半透明元素。" })
 		
 	},
 
