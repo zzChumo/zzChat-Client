@@ -149,20 +149,20 @@ h1,h2,h3,h4,h5,h6 {
 blockquote {
   padding: 3px 10px;
   margin: 3px;
-  border-left: 5px solid #4e4e4e;
+  border-left: 5px solid #44444466;
 }
 code {
   padding: 2px 4px;
   font-size: 90%;
   color: #eee;
-  background-color: #4e4e4e;
+  background-color: #44444466;
   border-radius: 4px;
 }
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #4e4e4e;
+  border-top: 1px solid #44444466;
 }
 mark {
   background-color: #00ccaa;
@@ -177,7 +177,7 @@ pre {
   color: #797979;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #4e4e4e;
+  background-color: #44444466;
   border: 1px solid #000;
   border-radius: 4px;
 }
@@ -194,13 +194,13 @@ table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:fir
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #44444488;
+    border-bottom: 2px solid #44444466;
 }
 table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #44444488;
+    border-top: 1px solid #44444466;
 }
 th {
     text-align: left;
@@ -209,13 +209,13 @@ td, th {
     padding: 0;
 }
 table > tbody > tr:nth-child(odd) > td, table > tbody > tr:nth-child(odd) > th {
-    background-color: #44444488;
+    background-color: #44444466;
 }
 table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #44444488;
+    border-top: 1px solid #44444466;
 }
 td, th {
     padding: 0;
