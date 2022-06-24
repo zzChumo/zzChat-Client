@@ -162,7 +162,8 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #4e4e4e;
+  border-top: 1px solid #888;
+  color: #888;
 }
 mark {
   background-color: #00ccaa;
