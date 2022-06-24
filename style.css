@@ -194,13 +194,13 @@ table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:fir
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #4e4e4e;
+    border-bottom: 2px solid #44444488;
 }
 table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #4e4e4e;
+    border-top: 1px solid #44444488;
 }
 th {
     text-align: left;
@@ -209,13 +209,13 @@ td, th {
     padding: 0;
 }
 table > tbody > tr:nth-child(odd) > td, table > tbody > tr:nth-child(odd) > th {
-    background-color: #4e4e4e;
+    background-color: #44444488;
 }
 table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #4e4e4e;
+    border-top: 1px solid #44444488;
 }
 td, th {
     padding: 0;
