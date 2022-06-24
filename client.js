@@ -430,6 +430,7 @@ var COMMANDS = {
 		
 		pushMessage({ nick: '*', text: "在线的用户: " + nicks.join(", ") })
                 pushMessage({ nick: '*', text: "# 更新日志\n\n## zzChat Client V1.1.1\n-加入了半透明元素。" })
+		pushMessage({ nick: '*', text: "# 公告\n\n## 紧急·必看\n-zzChat的云服务提供商遭到攻击，导致GS Team的所有服务瘫痪。目前所有服务均已恢复正常，但稳定性可能会有所下降。\n## 通常\n-我们将会在2022年6月30日-7月10日每日晚上9:00-凌晨3:00对zzChat进行实验性更改，可能会出现致命漏洞。请尽量避免在此时段上线/退出zzChat。" })
 		
 	},
 
