@@ -149,20 +149,20 @@ h1,h2,h3,h4,h5,h6 {
 blockquote {
   padding: 3px 10px;
   margin: 3px;
-  border-left: 5px solid #00000033;
+  border-left: 5px solid #4e4e4e;
 }
 code {
   padding: 2px 4px;
   font-size: 90%;
   color: #ffffff;
-  background-color: #00000033;
+  background-color: #4e4e4e;
   border-radius: 4px;
 }
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #00000033;
+  border-top: 1px solid #4e4e4e;
 }
 mark {
   background-color: #00ccaa;
@@ -177,7 +177,7 @@ pre {
   color: #797979;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #00000033;
+  background-color: #4e4e4e;
   border: 1px solid #000;
   border-radius: 4px;
 }
